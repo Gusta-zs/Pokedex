@@ -4,11 +4,11 @@
     "slug": "Pokedex",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/imagens/pokeicon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./src/assets/imagens/pokeicon.jpg",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -22,12 +22,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundImage": "./src/assets/imagens/pokeicon.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.Pokedex"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./src/assets/imagens/pokeicon.jpg"
     }
   }
 }
